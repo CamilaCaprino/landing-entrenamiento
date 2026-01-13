@@ -1,6 +1,5 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -66,35 +65,7 @@ const config: Config = {
         deepSlate: "#282C36",
         slateGray: "#2F3543",
       },
-      fontSize: {
-        86: ["5.375rem", { lineHeight: "1.2" }],
-        76: ["4.75rem", { lineHeight: "1.2" }],
-        70: ["4.375rem", { lineHeight: "1.2" }],
-        54: ["3.375rem", { lineHeight: "1.2" }],
-        44: ["2.75rem", { lineHeight: "1.3" }],
-        40: ["2.5rem", { lineHeight: "3rem" }],
-        36: ["2.25rem", { lineHeight: "2.625rem" }],
-        30: ["1.875rem", { lineHeight: "2.25rem" }],
-        28: ["1.75rem", { lineHeight: "2.25rem" }],
-        24: ["1.5rem", { lineHeight: "2rem" }],
-        22: ["1.375rem", { lineHeight: "2rem" }],
-        21: ["1.3125rem", { lineHeight: "1.875rem" }],
-        18: ["1.125rem", { lineHeight: "1.5rem" }],
-        17: ["1.0625rem", { lineHeight: "1.4875rem" }],
-        16: ["1rem", { lineHeight: "1.6875rem" }],
-        14: ["0.875rem", { lineHeight: "1.225rem" }],
-      },
-      backgroundImage: {
-        start: "url('/images/work/bg-start.png')",
-        perk: "url('/images/perks/perk-bg.png')",
-      },
-      blur: {
-        220: "220px",
-        400: "400px",
-      },
     },
   },
   plugins: [],
 };
-
-export default config;
