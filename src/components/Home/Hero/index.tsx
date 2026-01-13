@@ -139,6 +139,7 @@ const Hero = () => {
         </div>
       
       </div>
+       {/* BLUR DECORATIVO 3*/}
       <div className="absolute w-50 h-50 bg-gradient-to-bl from-tealGreen from-50% to-charcoalGray to-60% blur-400 rounded-full -top-64 -right-14 -z-1"></div>
 
       {/* Modals for Buy and Sell */}
