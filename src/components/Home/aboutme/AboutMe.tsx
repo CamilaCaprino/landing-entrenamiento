@@ -48,7 +48,7 @@ const AboutMe = () => {
           >
             <div className="relative rounded-2xl overflow-hidden">
               <Image
-                src={`${getImagePrefix()}images/work/pretemporada2.png`}
+                src={`${getImagePrefix()}/images/work/pretemporada2.png`}
                 alt="Sobre mí"
                 width={420}
                 height={420}

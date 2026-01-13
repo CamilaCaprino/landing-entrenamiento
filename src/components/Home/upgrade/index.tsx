@@ -41,7 +41,7 @@ const Upgrade = () => {
             <div className="relative rounded-2xl overflow-hidden lg:ml-8 xl:ml-14">
               <video
                 className="w-full h-full object-cover"
-                src={`${getImagePrefix()}images/portfolio/Preentreno.webm`}
+                src={`${getImagePrefix()}/images/portfolio/Preentreno.webm`}
                 autoPlay
                 loop
                 muted

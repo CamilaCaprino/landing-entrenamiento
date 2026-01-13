@@ -68,7 +68,7 @@ const Work = () => {
           <motion.div {...TopAnimation} className="lg:col-span-5 col-span-12">
             <div className="2xl:-mr-40 mt-9 flex justify-center">
               <Image
-                src= {`${getImagePrefix()}images/work/pretemporada2.png`}
+                src= {`${getImagePrefix()}/images/work/pretemporada2.png`}
                 alt="image"
                 width={400}
                 height={325}

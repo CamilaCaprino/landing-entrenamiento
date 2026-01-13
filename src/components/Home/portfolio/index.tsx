@@ -16,7 +16,7 @@ const Portfolio = () => {
             className="lg:-ml-32"
           >
             <Image
-              src= {`${getImagePrefix()}images/portfolio/img-portfolio2.png`}
+              src= {`${getImagePrefix()}/images/portfolio/img-portfolio2.png`}
               alt="Crypto Portfolio"
               width={780}
               height={700}
